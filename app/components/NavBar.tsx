@@ -24,7 +24,7 @@ const NavBar = () => {
                         Dashboard
                     </Link>
                     <Link
-                        href="/login"
+                        href="/Login"
                         className="text-gray-700 hover:text-primary hover:underline underline-offset-6"
                     >
                         Log In
@@ -36,7 +36,7 @@ const NavBar = () => {
                         Log Out
                     </Link>
                     <Link
-                        href="/signup"
+                        href="/Signup"
                         className="text-gray-700 hover:text-primary hover:underline underline-offset-6"
                     >
                         Sign Up
@@ -64,7 +64,7 @@ const NavBar = () => {
                         Dashboard
                     </Link>
                     <Link
-                        href="/login"
+                        href="/Login"
                         className="text-gray-700 hover:text-primary"
                         onClick={() => setIsOpen(false)}
                     >
@@ -78,7 +78,7 @@ const NavBar = () => {
                         Log Out
                     </Link>
                     <Link
-                        href="/signup"
+                        href="/Signup"
                         className="text-gray-700 hover:text-primary"
                         onClick={() => setIsOpen(false)}
                     >

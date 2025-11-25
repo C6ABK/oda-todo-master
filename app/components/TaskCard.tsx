@@ -1,6 +1,6 @@
 const TaskCard = () => {
     return (
-        <div className="flex flex-col shadow-xl border-2 rounded-lg p-2 hover:bg-gray-50">
+        <div className="flex flex-col shadow-xl border-2 border-secondary rounded-lg p-2 hover:bg-gray-50">
             <div className="flex justify-between font-semibold">
                 <div>Task Title</div>
                 <div className="text-xs">ID: 123</div>
