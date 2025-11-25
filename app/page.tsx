@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import NewTaskForm from "./components/NewTaskForm"
+import ListTasks from "./components/ListTasks"
 
 const HomePage = () => {
     const [newTaskOpen, setNewTaskOpen] = useState(false)
@@ -41,9 +42,7 @@ const HomePage = () => {
                 )}
 
                 <div className="bg-white shadow-xl rounded-xl w-full p-4">
-                    <div className="font-semibold text-xl text-gray-800">
-                        Current Tasks
-                    </div>
+                    <ListTasks />
                 </div>
             </div>
             <div className="col-span-1 md:col-span-1 md:pl-4">
